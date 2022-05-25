@@ -1,0 +1,83 @@
+<html>
+  
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <link href="CSS  main.css" rel="stylesheet" type="text/css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+
+		<title>Request a Song</title>
+  </head>
+  
+  <div id="main">
+	
+  <ul class="navigation">
+    <div class="w3-container w3-blue w3-left w3-allerta">
+      <p class="w3-xxxlarge" >Pips Guitar Lessons</p>
+    </div>
+    <li><a href="Index.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Book.html">Book</a></li>
+    <li><a href="Songs.html">Songs</a></li>
+    <li><a href= "Payment.html">Pay Now</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+  </ul>
+
+
+    <body>
+      <form action="song.php" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+        <div class="w3-panel w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-border-blue w3-pale-blue">
+        <h2>Thses are a few songs, I can help you play.</h2>
+
+    <ul class= "glow">
+                  
+            <li>Creedence Clearwater Revival -  Bad Moon Rising</li>  
+            <li>Van Morrison - Brown Eyed Girl</li>    
+            <li>Johnny Cash - Folsom Prison Blues</li> 
+            <li>Bob Dylan - Knockin' On Heavens Door</li>    
+            <li>Bob Dylan - All Along The Watchtower</li>
+            <li>U2 - With Or Without You</li>
+            <li>Eric Clapton - Wonderful Tonight</li>
+            <li>Bob Dylan - Blowing In The Wind</li>  
+            <li>Neil Young -  Heart Of Gold</li>
+            <li>Johnny Cash	- Hurt</li>
+            <li>Tom Petty - Free Fallin'</li>
+            <li>The Beatles	- Yesterday</li>
+            <li>The Kinks - Lola</li>
+            <li>Bob Marley - Redemption Song</li>
+            <li>The Who	 - Behind Blue Eyes</li>
+            <li>John Denver	- Country Roads</li>
+            <li>Bill Withers - Ain't No Sunshine</li>
+            <li>Green Day - The Time Of Your Life</li>
+            <li>Metallica - Nothing Else Matters</li>
+            <li>Paul Simon - Sounds of Silence</li>
+            <li>The Animals - House Of The Rising Sun</li>                  
+    </ul>  
+    <h2>If you want you can request a specific song or style you wish to learn you can place it here</h2>
+    
+    <form name="Song" method="post" action="song.php">
+        Song name:
+        
+        <input type="text" name="songname" placeholder="Song Name" id="songname"><br>
+            
+        <br>
+
+        Artist name:
+        <input type="text" name="artistname" placeholder="Artist" id="artistname"><br>
+
+        <br>
+
+        Style of Music:
+        <input type="text" name="style" placeholder="Rock/Pop etc" id="style"><br>
+
+        <br>
+
+    <p><input type="submit" name="Submit" id="Submit" value="Submit"></p>
+    </form>
+
+    </body>
+
+</html>

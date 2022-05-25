@@ -1,0 +1,109 @@
+<html>
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <link href="CSS  main.css" rel="stylesheet" type="text/css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+      <form action=”info.php” method=”post”>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/5573336fe4.js"  crossorigin="anonymous"></script>
+  
+      <title>Lesson demos</title>
+    </head>
+  
+    <body>
+
+      <div id="main">
+
+      <ul class="navigation">
+        <div class="w3-container w3-blue w3-left w3-allerta">
+          <p class="w3-xxxlarge" >Pips Guitar Lessons</p>
+        </div>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Book.html">Book</a></li>
+        <li><a href="Songs.html">Songs</a></li>
+        <li><a href= "Payment.html">Pay Now</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+
+      <div class="w3-container w3-teal">
+        <h1>Class Examples</h1>
+      </div>
+
+      <div id="slideshow">
+        <div>
+          <img src="images/home bass.jpg" width= "150%">
+        </div>
+        <div>
+          <img src="images/Home Guitar 2 .jpg" width = "150%">
+        </div>
+        <div>
+          <img src="images/Home Guitar 3.jpg" width="150%">
+        </div>
+        <div>
+          <img src="images/home bass 2.jpg" width="100%">
+        </div>
+     </div>	
+     <script>$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(0)
+    .next()
+    .fadeIn(0)
+    .end()
+    .appendTo('#slideshow');
+},  4000);
+</script>
+
+<h2><p>Here are some examples of the lessons I have done previously and videos of me performing and teaching:</p></h2>
+
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="images/home bass.jpg" style="width:100%">
+            <div class="w3-container">
+              <h5>Bass Lesson</h5>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third">
+          <div class="w3-card">
+            <video width="250" height="300" controls>
+            <source src="images/Guitar Video.mp4" type="video/mp4" ></video>
+            <div class="w3-container">
+              <h5>Demo of a Lesson</h5>
+            </div>
+          </div>
+        </div>
+      
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="images/Home Guitar 2 .jpg" style="width:100%">
+            <div class="w3-container">
+              <h5>Guitar Lesson</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  <h3><i><u>Me performing in China</u></i></h3>
+	<video width="600" height="400" controls>
+	<source src="images/Performance.mp4" type="video/mp4">Me playing in China</video>
+	
+	</div>
+	
+	</div>
+	
+	</body>
+
+</html>

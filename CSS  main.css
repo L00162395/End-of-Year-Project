@@ -1,0 +1,257 @@
+
+body
+	html {
+	padding:0;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffffe6;
+	margin-left: 5%;
+	}
+
+header {
+		width: 100%;
+		margin-top: 1em;
+		align-self: center;
+		
+		}
+
+button { 
+	border: 0.1em inset #cccccc;
+	width: 6em;
+	padding: .25em  .125em; 
+	color: #fff2e6;
+	background-color: #006600;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+  	text-decoration:none;
+}
+#bns{
+	text-align: center;
+}
+
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+  background: deepskyblue;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #1565C0;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-md-block {
+  display: block !important;
+}
+
+.custom-control {
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.custom-radio .custom-control-label::before {
+  border-radius: 50%;
+}
+
+.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
+  background-color: rgba(0, 123, 255, 0.5);
+}
+
+.glow {
+	background: #cce5ff;
+	margin: 5px;
+	align-self: center;
+  }
+
+h1 {
+	font-weight: bold;
+	color: black;
+	font-family: Times New roman;
+	margin-left: 5%;
+}
+
+h2 {
+	font-weight: bold;
+	color: blue;
+	font-family: Times New roman;
+	font-weight: bold;
+	margin-left: 5%;
+}
+
+h3 { font-family: Arial;
+	COLOR: black; 
+	font-weight: bold;
+	margin-left: 5%;
+  }
+
+h4 { font-family: sans-serif;
+	COLOR:Green; 
+	font-weight: initial;
+	margin-left: 5%;
+  }
+  
+h5 { font-family: 'Times New Roman', Times, serif;
+	COLOR: black; 
+	font-weight: bold;
+	margin-left: 5%;
+  }
+
+
+*{
+	box-sizing: border-box;
+		
+	}
+		.column {
+			float: left;
+			width: 25%;
+			padding: 5em;
+		  }
+		  
+		
+		  .row::after {
+			content: "";
+			clear: both;
+			display: table;
+		  }
+#wrap {
+	width:80%;
+	background-color: #fff2e6;
+	border-left: .1em solid #999999;
+	border-right: .1em solid #999999;
+	border-bottom: .1em solid #999999;
+	border-top: .2em solid #999999;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+
+}
+
+#slideshow { 
+	position: left; 
+	width: 50%; 
+	height: 34em; 
+	padding: 10em; 
+	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+	position: left; 
+	
+}
+
+	
+footer{
+	color: black;
+	text-align: center;
+	clear: both;
+	padding:.5em;
+	margin: .5em 0em;
+	border-top: .1em solid #999999;
+	margin-right: auto;
+	margin-left: auto;
+	
+	}
+	
+	
+main p{
+	padding-left: 5%;
+  }
+  
+
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+  text-align-last: left;
+}
+
+text{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: auto;
+	background-color: #ffd9b3;
+	border: .1em solid #994d00;
+	border-radius: 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	box-shadow: .8em .8em .4em  #994d00;
+	}
+	
+#main{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: auto;
+	background-color: #eeeeee;
+	border: .1em solid #994d00;
+	border-radius: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	box-shadow: .8em .8em .4em  #888888;
+  }
+  
+#alt{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: auto;
+  background-color: #eeeeee;
+  border: .1em solid yellowgreen;
+  border-radius: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  box-shadow: .8em .8em .4em  grey;
+  }
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+
+  }
+}
